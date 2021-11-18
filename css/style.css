@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(36, 192, 235);
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.resize {
+    width:150px; 
+    height: auto;
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 700px;
+    height: 500px; 
+}
+
+.slide {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+footer {
+    padding: 15px;
+    background-color: rgba(36, 35, 35, 0.075);
+}
+
+#carouselExample{
+    max-width: 100%;
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+#email {
+    margin-left: 100px;
+}
+
+#sociais {
+    margin-left: 800px;
+    border-radius: 2rem;
+    padding: 10px;
+}
+
