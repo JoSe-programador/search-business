@@ -9,6 +9,12 @@ h1 {
     color: rgb(36, 192, 235);
 }
 
+h2 {
+    color: rgb(36, 192, 235);
+    margin-left: 30px;
+    padding: 30px;
+}
+
 .card-text {
     text-align: justify;
 }
@@ -24,8 +30,7 @@ h1 {
 }
 
 .carousel-inner > .carousel-item > img {
-    width: 700px;
-    height: 500px; 
+    
 }
 
 .slide {
@@ -43,20 +48,53 @@ footer {
     max-width: 100%;
 }
 
-#contato {
-    display: flex;
-    align-items: center;
-    border-radius: 2rem;
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 2% 3%;
+    background-color: rgba(36, 35, 35, 0.075);
     text-align: center;
+
 }
 
-#email {
-    margin-left: 100px;
+.copyright {
+    margin-top: 1%;
 }
 
-#sociais {
-    margin-left: 800px;
-    border-radius: 2rem;
-    padding: 10px;
+.textCursos {
+    margin-right: 25px;
+    margin-left: 25px;
+    padding: 25px;
+    text-align: center;
+    font-size: 28px;
 }
 
+.cursos {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.indiceCursos {
+    background-color: rgba(0, 0, 0, 0.027);
+    margin-left: 10px;
+    width: 455px;
+    height: 205px;
+    padding: 15px;
+    border: black solid 2px;
+}
+
+.social-icons a {
+    font-size: 50px;
+    color: rgba(0, 0, 255, 0.295);
+    margin-right: 1%;
+}
+
+.destaque {
+    color:  rgb(36, 192, 235);
+}
+
+.sociais:hover {
+    color: blue;
+}
